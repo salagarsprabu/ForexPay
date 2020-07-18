@@ -9,14 +9,14 @@
 	</parent>
 	<groupId>com.squad</groupId>
 	<artifactId>ForexPay</artifactId>
-	<version>1.3</version>
+	<version>1.4-SNAPSHOT</version>
 	<name>ForexPay</name>
 	<description>Money Transfer project for Spring Boot</description>
 <scm>
        <connection>scm:https://github.com/samridhi97/ForexPay.git</connection>
        <url>https://github.com/samridhi97/ForexPay.git</url>
        <developerConnection>scm:git:https://github.com/samridhi97/ForexPay.git</developerConnection>
-    <tag>1.3</tag>
+    <tag>HEAD</tag>
   </scm>
 
 	<properties>
