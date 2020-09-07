@@ -28,7 +28,7 @@
 			**/constant/*,
 			**/exception/*
 		</sonar.coverage.exclusions>
-           <sonar.host.url>http://13.233.4.137:9000</sonar.host.url>
+           <sonar.host.url>http://13.234.31.39:9000</sonar.host.url>
            <sonar.login>admin</sonar.login>
            <sonar.password>admin</sonar.password>	
 	</properties>
@@ -83,7 +83,7 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http:/13.233.4.137:8081/nexus/content/repositories/snapshots</url>
+			<url>http://13.234.31.39:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 /* <repository>
     <id>nexus</id>
@@ -110,7 +110,7 @@
 	    <version>6.4.4</version>
 	    <configuration>
 	         <baselineOnMigrate>true</baselineOnMigrate>
-	         <url>jdbc:mysql://18.219.168.151:3306</url>
+	         <url>jdbc:mysql://13.234.31.39:3306</url>
 	         <user>inguser1</user>
 		  <password>H@ckath0n</password>
 	      <schemas>
