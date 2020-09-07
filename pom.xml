@@ -81,17 +81,10 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://13.234.31.39:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-/* <repository>
-    <id>nexus</id>
-    <url>http://18.219.168.151:8081/nexus/content/repositories/releases</url>
-    <url>http://13.233.4.137:8081/nexus/content/repositories/snapshots</url>
-  </repository>
-*/		
-
+	  <snapshotRepository>
+	    <id>nexus</id>
+	    <url>http://13.234.31.39:8081/nexus/content/repositories/snapshots</url>
+	  </snapshotRepository>
 	</distributionManagement>
 
 	<build>
