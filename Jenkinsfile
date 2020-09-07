@@ -1,11 +1,10 @@
 pipeline {
-  agent any
-  tools {maven "M2_HOME"} // M2_HOME is the variable which is mentioned in global tool
   environment {
     registry = "senthil123/forexpay"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
+      agent any
   stages {
     stage('Cloning Git') {
       steps {
@@ -13,6 +12,12 @@ pipeline {
       }
     }
     stage('Build and Deploy') {
+      agent{
+                docker {
+                    image 'maven:3-alpine' 
+                    args '-v /root/.m2:/root/.m2' 
+                }
+            }
       steps {
         sh '''
         mvn clean deploy sonar:sonar -Dmaven.test.skip=true
