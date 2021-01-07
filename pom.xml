@@ -28,7 +28,7 @@
 			**/constant/*,
 			**/exception/*
 		</sonar.coverage.exclusions>
-           <sonar.host.url>http://13.234.31.39:9000</sonar.host.url>
+           <sonar.host.url>http://34.68.29.158:9000</sonar.host.url>
            <sonar.login>admin</sonar.login>
            <sonar.password>admin</sonar.password>	
 	</properties>
@@ -83,7 +83,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://13.232.73.229:8081/repository/maven-snapshots/</url>
+	    <url>http://34.68.29.158:9000/repository/maven-snapshots/</url>
 	  </snapshotRepository>
 	</distributionManagement>
 
