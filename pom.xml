@@ -28,9 +28,10 @@
 			**/constant/*,
 			**/exception/*
 		</sonar.coverage.exclusions>
-           <sonar.host.url>http://34.68.29.158:9000</sonar.host.url>
-           <sonar.login>admin</sonar.login>
-           <sonar.password>admin</sonar.password>	
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <sonar.host.url>http://34.72.104.220:9000</sonar.host.url>
+            <sonar.login>admin</sonar.login>
+            <sonar.password>admin123</sonar.password>
 	</properties>
 
 	<dependencies>
@@ -83,7 +84,7 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://34.68.29.158:9000/repository/maven-snapshots/</url>
+	    <url>http://34.72.104.220:8081/repository/maven-snapshots</url>
 	  </snapshotRepository>
 	</distributionManagement>
 
@@ -148,7 +149,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<profiles>
+    <profiles>
     <profile>
         <id>dev</id>
         <properties>
